@@ -37,3 +37,4 @@ print(preds)
 
 #Evaluate accuracy
 print(accuracy_score(test_labels,preds))
+print(gnb.score(test,test_labels))
